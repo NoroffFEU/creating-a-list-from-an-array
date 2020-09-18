@@ -32,6 +32,6 @@ function createList() {
     });
 }
 
-function handleClick() {
+function handleClick(event) {
     event.target.classList.toggle("complete");
 }
